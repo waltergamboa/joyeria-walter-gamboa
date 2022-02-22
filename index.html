@@ -23,221 +23,235 @@
         <header>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-2 p-4">
-                        <img class="logo" src="./assets/img/d1.png" alt="Logo">
+                    <div class="col-12 col-md-3 col-xxl-3 p-4">
+                        <img class="logo" src="../assets/img/d1.png" alt="Logo">
                     </div>
-                    <div class="col-md-8 p-4 text-center titulo">
+                    <div class="col-12 col-md-6 col-xxl-6 p-4 text-center titulo">
                         <span>Los Diamantes Son Eternos</span>
                     </div>
-                    <div class="col-md-2 p-4">
+                    <div class="col-12 col-md-3 col-xxl-3 p-4">
                         <a class="ingresar" href="./vistas/ingresar.html">Mi Cuenta</a>
                     </div>
                 </div>
             </div>
         </header>
-        <nav class="navegacion">
-            <ul class="menu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="./vistas/colecciones.html">Colecciones</a></li>
-                <li><a href="./vistas/tasaciones.html">Tasaciones</a></li>
-                <li><a href="#">Servicios</a>
-                    <ul class="submenu">
-                        <li><a href="./vistas/servicios-joyeria.html">Joyeria</a></li>
-                        <li><a href="./vistas/servicios-gemologia.html">Gemoligia</a></li>
+        <nav class="navbar navbar-expand-md navbar-light bg-light p-0">
+            <div class="container-fluid p-1 navegacion">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav menu">
+                        <li class="nav-item menu-activo"><a href="#">Inicio</a></li>
+                        <li class="nav-item"><a href="./vistas/colecciones.html">Colecciones</a></li>
+                        <li class="nav-item"><a href="./vistas/tasaciones.html">Tasaciones</a></li>
+                        <li class="nav-item"><a href="#">Servicios</a>
+                            <ul class="submenu">
+                                <li class="nav-item"><a href="./vistas/servicios-joyeria.html">Joyeria</a></li>
+                                <li class="nav-item"><a href="./vistas/servicios-gemologia.html">Gemoligia</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="./vistas/nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a href="./vistas/contacto.html">Contacto</a></li>
                     </ul>
-                </li>
-                <li><a href="./vistas/nosotros.html">Nosotros</a></li>
-                <li><a href="./vistas/contacto.html">Contacto</a></li>
-            </ul>
+                </div>
+            </div>
         </nav>
         <main>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12 p-0">
-                
-                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 p-0">
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/img/j1.jpg" class="d-block w-100 " alt="...">
                                 </div>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./assets/img/j1.jpg" class="d-block w-100 imagen__carrusel" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/img/c1.jpg" class="d-block w-100 imagen__carrusel" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
+                                <div class="carousel-item">
+                                    <img src="./assets/img/c1.jpg" class="d-block w-100 " alt="...">
+                                </div>
+                                <div class="carousel-item">
                                     <img src="./assets/img/c2.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/img/c3.jpg" class="d-block w-100 imagen__carrusel" alt="...">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./assets/img/c4.jpg" class="d-block w-100 imagen__carrusel" alt="...">
-                                  </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-
+                                <div class="carousel-item">
+                                    <img src="./assets/img/c3.jpg" class="d-block w-100 " alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/c4.jpg" class="d-block w-100 " alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
+
                     </div>
                 </div>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h2 class="main__titulo">Nuestra Joyería Online</h2>
-                        </div>
+            </div>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="main__titulo negrita">Nuestra Joyería Online</h2>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p>
-                                Una joyería es un negocio que se dedica fundamentalmente al comercio de joyas. </p>
-                            <p>
-                                Ya sea mediante su comercialización o su fabricación, incluso muchos se dedican a
-                                realizar las
-                                dos
-                                actividades, es decir, son fabricantes y distribuidores. Como en tantos otros sectores,
-                                hemos dado el salto digital y la compra de joyería online es algo cada vez más común.
-                            </p>
-                            <p>Desde prácticamente siempre existe inclinación por llevar elementos distintivos que se
-                                ven
-                                reflejados en joyas de todo tipo. Muchas veces, esto se asocia a prestigio y posición
-                                social
-                                de las personas que los llevan. </p>
-                            <p>Cuando hacemos referencia a la joyería el oro y diamantes
-                                son los materiales escogidos por excelencia para conseguir la joya perfecta.</p>
-                            <p>Somos una tienda de joyería online especializada en oro y diamantes. Podrás encontrar una
-                                gran
-                                variedad de joyas de mujer en oro de 18 kilates (750 milésimas) y 9 kilates (375
-                                milésimas). </p>
-                            <p>Los Diamantes son Eternos es sinónimo de excelencia, nuestro equipo de calidad
-                                trabaja para ofrecerte joyas fabricadas con materiales de primera calidad a buen precio.
-                            </p>
-                            <p> Es
-                                importante saber que todas nuestras joyas se adecuan a las diferentes normativas
-                                Europeas,
-                                por ello, expedimos un certificado de calidad junto con tu pedido.
-                            </p>
-                            <p>Una de las ventajas al comprar en nuestra joyería online es el amplio catálogo de
-                                artículos
-                                que tenemos a tu disposición. Encontrarás joyas para cualquier ocasión: una boda, una
-                                comunión, un regalo de cumpleaños o Navidad o ¿por qué no? date un capricho, ¡te lo
-                                mereces!
-                            </p>
-                            <p>Nuestra joyería online te ofrece un envío super rápido, en 24-48h tienes tu joya en casa,
-                                incluso en joyas personalizadas con grabado de texto como alianzas, esclavas o medallas.
-                            </p>
-                            <p>
-                                Cuidamos cada detalle, Los Diamantes son Eternos envía cada joya con un elegante y
-                                original
-                                packaging que cumple también la función de protección durante el envío.
-                            </p>
-                            <p>Atrás quedaron aquellos días en los que, para adquirir un anillo con diamantes para una
-                                boda,
-                                unos pendientes o una pulsera para llevarlos en una ocasión especial, había que ir de
-                                una
-                                joyería en otra para encontrar el adecuado. </p>
-                            <p>El auge de las joyerías online ha terminado con
-                                todo esto, abriendo de esta forma un abanico de posibilidades que asegura a los clientes
-                                más
-                                variedad de joyas y una compra segura, desde la comodidad de hacerlo desde casa.
-                            </p>
-                            <p>El catálogo de joyeria online que encontrarás en Los Diamantes son Eternos es muy amplio.
-                                Gracias a esto podrás ver rápidamente una cantidad infinita de marcas y modelos para
-                                todos
-                                los gustos y ocasiones.
-                            </p>
-                            <p>
-                                En nuestra web, te mostraremos tus marcas favoritas y comprobarás las ventajas de
-                                comprar
-                                joyería online en Los Diamantes son Eternos.
-                            </p>
-                        </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                            Una joyería es un negocio que se dedica fundamentalmente al comercio de joyas. </p>
+                        <p>
+                            Ya sea mediante su comercialización o su fabricación, incluso muchos se dedican a
+                            realizar las
+                            dos
+                            actividades, es decir, son fabricantes y distribuidores. Como en tantos otros sectores,
+                            hemos dado el salto digital y la compra de joyería online es algo cada vez más común.
+                        </p>
+                        <p>Desde prácticamente siempre existe inclinación por llevar elementos distintivos que se
+                            ven
+                            reflejados en joyas de todo tipo. Muchas veces, esto se asocia a prestigio y posición
+                            social
+                            de las personas que los llevan. </p>
+                        <p>Cuando hacemos referencia a la joyería el oro y diamantes
+                            son los materiales escogidos por excelencia para conseguir la joya perfecta.</p>
+                        <p>Somos una tienda de joyería online especializada en oro y diamantes. Podrás encontrar una
+                            gran
+                            variedad de joyas de mujer en oro de 18 kilates (750 milésimas) y 9 kilates (375
+                            milésimas). </p>
+                        <p>Los Diamantes son Eternos es sinónimo de excelencia, nuestro equipo de calidad
+                            trabaja para ofrecerte joyas fabricadas con materiales de primera calidad a buen precio.
+                        </p>
+                        <p> Es
+                            importante saber que todas nuestras joyas se adecuan a las diferentes normativas
+                            Europeas,
+                            por ello, expedimos un certificado de calidad junto con tu pedido.
+                        </p>
+                        <p>Una de las ventajas al comprar en nuestra joyería online es el amplio catálogo de
+                            artículos
+                            que tenemos a tu disposición. Encontrarás joyas para cualquier ocasión: una boda, una
+                            comunión, un regalo de cumpleaños o Navidad o ¿por qué no? date un capricho, ¡te lo
+                            mereces!
+                        </p>
+                        <p>Nuestra joyería online te ofrece un envío super rápido, en 24-48h tienes tu joya en casa,
+                            incluso en joyas personalizadas con grabado de texto como alianzas, esclavas o medallas.
+                        </p>
+                        <p>
+                            Cuidamos cada detalle, Los Diamantes son Eternos envía cada joya con un elegante y
+                            original
+                            packaging que cumple también la función de protección durante el envío.
+                        </p>
+                        <p>Atrás quedaron aquellos días en los que, para adquirir un anillo con diamantes para una
+                            boda,
+                            unos pendientes o una pulsera para llevarlos en una ocasión especial, había que ir de
+                            una
+                            joyería en otra para encontrar el adecuado. </p>
+                        <p>El auge de las joyerías online ha terminado con
+                            todo esto, abriendo de esta forma un abanico de posibilidades que asegura a los clientes
+                            más
+                            variedad de joyas y una compra segura, desde la comodidad de hacerlo desde casa.
+                        </p>
+                        <p>El catálogo de joyeria online que encontrarás en Los Diamantes son Eternos es muy amplio.
+                            Gracias a esto podrás ver rápidamente una cantidad infinita de marcas y modelos para
+                            todos
+                            los gustos y ocasiones.
+                        </p>
+                        <p>
+                            En nuestra web, te mostraremos tus marcas favoritas y comprobarás las ventajas de
+                            comprar
+                            joyería online en Los Diamantes son Eternos.
+                        </p>
                     </div>
                 </div>
+            </div>
 
-                <div class="container p-4">
-                    <div class="row">
-                        <div class="col-md-3 text-center">
-                            <img class="info__item__imagen" src="./assets/img/info1.jpg" alt="">
-                            <p class="info__item__linea1">JOYAS DE ALTA CALIDAD</p>
-                            <hr>
-                            <p class="info__item__linea2">A PRECIOS ACCESIBLES</p>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <img class="info__item__imagen" src="./assets/img/info2.jpg" alt="">
-                            <p class="info__item__linea1">ASESORAMIENTO PERSONALIZADO</p>
-                            <hr>
-                            <p class="info__item__linea2">POR NUESTROS EXPERTOS GRADUADOS EN EL INSTITUTO GIA</p>
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-xxl-3 text-center" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1500">
+                        <img class="info__item__imagen" src="./assets/img/info1.jpg" alt="">
+                        <p class="linea negrita">JOYAS DE ALTA CALIDAD</p>
+                        <hr>
+                        <p class="linea">A PRECIOS ACCESIBLES</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-3 text-center" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1200">
+                        <img class="info__item__imagen" src="./assets/img/info2.jpg" alt="">
+                        <p class="linea negrita">ASESORAMIENTO PERSONALIZADO</p>
+                        <hr>
+                        <p class="linea">POR NUESTROS EXPERTOS GRADUADOS EN EL INSTITUTO GIA</p>
 
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <img class="info__item__imagen" src="./assets/img/info3.jpg" alt="">
-                            <p class="info__item__linea1">CERTIFICADOS</p>
-                            <hr>
-                            <p class="info__item__linea2">TODAS NUESTRAS PIEZAS CUENTAN CON CERTIFICADOS DE LABORATORIOS
-                                EXTERNOS O REALIZADOS POR NUESTRO GEMÓLOGO</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-3 text-center" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="900">
+                        <img class="info__item__imagen" src="./assets/img/info3.jpg" alt="">
+                        <p class="linea negrita">CERTIFICADOS</p>
+                        <hr>
+                        <p class="linea">TODAS NUESTRAS PIEZAS CUENTAN CON CERTIFICADOS DE LABORATORIOS
+                            EXTERNOS O REALIZADOS POR NUESTRO GEMÓLOGO</p>
 
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <img class="info__item__imagen" src="./assets/img/info4.jpg" alt="">
-                            <p class="info__item__linea1">ENVÍOS SIN CARGO</p>
-                            <hr>
-                            <p class="info__item__linea2">PARA TODO EL PAÍS</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-xxl-3 text-center" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="500">
+                        <img class="info__item__imagen" src="./assets/img/info4.jpg" alt="">
+                        <p class="linea negrita">ENVÍOS SIN CARGO</p>
+                        <hr>
+                        <p class="linea">PARA TODO EL PAÍS</p>
 
-                        </div>
                     </div>
                 </div>
+            </div>
         </main>
         <footer>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4 p-4">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-4 p-0 m-0">
-                                    <img class="logo" src="./assets/img/d1.png" alt="Logo">
-                                </div>
-                                <div class="col-md-8">
-                                    <div>
-                                        <i class="fa-solid fa-phone"></i>
-                                        <i class="fa-solid fa-ellipsis-vertical"></i>&nbsp;+54 11
-                                        9999-9999
-                                    </div>
-                                    <div>
-                                        <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;<i
-                                            class="fa-solid fa-ellipsis-vertical"></i>&nbsp;Calle
-                                        3233 - C.A.B.A.
-                                    </div>
-                                    <div>
-                                        <i class="fa-solid fa-envelope"></i>&nbsp;<i
-                                            class="fa-solid fa-ellipsis-vertical"></i>&nbsp;info@ldseternos.com
-                                    </div>
-                                    <div>
-                                        <i class="fa-solid fa-clock"></i>&nbsp;<i
-                                            class="fa-solid fa-ellipsis-vertical"></i>&nbsp;Lunes
-                                        a
-                                        Viernes - 10-17
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-12 col-md-2 col-xxl-1 p-4">
+                        <img class="logo" src="../assets/img/d1.png" alt="Logo">
+                    </div>
+
+                    <div class="col-12 col-md-10 col-xxl-3 p-4">
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>&nbsp;+54 11
+                            9999-9999
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;<i
+                                class="fa-solid fa-ellipsis-vertical"></i>&nbsp;Calle
+                            3233 - C.A.B.A.
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>&nbsp;<i
+                                class="fa-solid fa-ellipsis-vertical"></i>&nbsp;info@ldseternos.com
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-clock"></i>&nbsp;<i
+                                class="fa-solid fa-ellipsis-vertical"></i>&nbsp;Lunes
+                            a
+                            Viernes - 10-17
                         </div>
                     </div>
 
-                    <div class="col-md-4 text-center">
+                    <div class="col-12 col-md-6 col-xxl-4 text-center">
                         <div class="footer__container__center__subscribirse">
                             <form action="">
                                 <label for="email">Boletin</label>
@@ -250,7 +264,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-12 col-md-6 col-xxl-4">
                         <div class="footer__container__right__info">
                             <p>Seguinos en</p>
                             <i class="fa-brands fa-facebook"></i>

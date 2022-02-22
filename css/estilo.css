@@ -86,6 +86,182 @@ footer {
     color: black;
 }
 /* layout fin*/
+/* ----------------------------- */
+.logo {
+    /*  margin-top: 1rem;*/
+      /*margin-left: 1rem;    */
+      width: 100px;
+      height: 80px;
+      /*
+      animation-name: logo__header;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 3s;
+      animation-delay: 0s
+      */
+  }
+  
+  .ingresar {
+      margin-left: 60%;
+  }
+  
+  
+  .titulo{
+      
+      font-family: 'Rock Salt', cursive;
+      color: black;
+      font-weight: bold;
+      font-size: 3.50rem;
+      margin-top: 3rem;
+  }
+  
+  
+  .boton {
+      background-color: #c0d6df;
+      font-size: 1.5rem;
+  }
+
+
+.linea {
+    margin-top: 1rem;
+}
+
+.negrita {
+   font-weight: bold;
+}
+
+.italica {
+   font-style: oblique;
+}
+
+.tachado{
+    text-decoration: line-through;
+}
+
+.rojo{
+    color: red;
+}
+
+.raya{
+    width: 50%;
+    margin: 1rem 25%;
+    height: 4rem;
+    background: linear-gradient(to right,#c0d6df, black);
+}
+
+
+.raya-linea{
+    border-bottom: 0.30rem solid #c0d6df;
+}
+
+
+.moneda-positivo{
+    font-weight: bold;
+}
+
+.moneda-negativo{
+    color: red;
+}
+
+
+.moneda-positivo::before{
+    content: "$ ";
+}
+
+
+.main__titulo {
+    color: #c0d6df;
+    padding: 2rem 0rem 5rem 0rem;
+}
+
+
+.menu-activo {
+    background-color: white;
+    border-top: groove 0.30rem black;
+    padding-bottom: 0rem;
+}
+
+.imagen__carrusel {
+    height: 80vh;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* navegacion inicio*/
+.navegacion{
+	width: 100%;
+	background-color: #c0d6df;
+    text-align: center;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+/* navegacion fin*/
+
+/* navegacion menu inicio*/
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: black;;
+	text-decoration: none;    
+}
+
+.menu li a:hover{
+	color: gray;
+}
+/* navegacion menu fin*/
+
+/* navegacion submenu inicio*/
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	display: none; 
+    z-index: 10;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	display: block;
+
+}
+/* navegacion submenu fin*/
+/* ---------------------- */
+
+
+
+
+
+
+
+
+/* ------- corte ----------------------------------------------------------------*/
+
+
+
+
 
 /* header inicio*/
 .header__container {
@@ -124,38 +300,7 @@ footer {
     */
 }
 
-.logo {
-  /*  margin-top: 1rem;*/
-    /*margin-left: 1rem;    */
-    width: 100px;
-    height: 80px;
-    /*
-    animation-name: logo__header;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 3s;
-    animation-delay: 0s
-    */
-}
 
-.ingresar {
-    margin-left: 7rem;
-}
-
-.titulo{
-    
-    font-family: 'Rock Salt', cursive;
-    color: black;
-    font-weight: bold;
-    font-size: 4rem;
-    margin-top: 3rem;
-}
-
-
-.boton {
-    background-color: #c0d6df;
-    font-size: 1.5rem;
-}
 
 /*-----*/
 
@@ -179,64 +324,11 @@ footer {
     align-items: center;
 }
 
-.imagen__carrusel {
-    height: 80vh;
-    object-fit: cover;
-}
+
 
 /* header fin*/
 
-/* navegacion inicio*/
-.navegacion{
-	width: 100%;
-	background-color: #c0d6df;
-    text-align: center;
-}
 
-.navegacion ul{
-	list-style: none;
-}
-/* navegacion fin*/
-
-/* navegacion menu inicio*/
-.menu > li{
-	position: relative;
-	display: inline-block;
-}
-
-.menu > li > a{
-	display: block;
-	padding: 15px 20px;
-	color: black;;
-	text-decoration: none;    
-}
-
-.menu li a:hover{
-	color: #eaeaea;
-}
-/* navegacion menu fin*/
-
-/* navegacion submenu inicio*/
-.submenu{
-	position: absolute;
-	background: #333333;
-	width: 120%;
-	display: none; 
-    z-index: 10;
-}
-
-.submenu li a{
-	display: block;
-	padding: 15px 15px;
-	color: #fff;
-	text-decoration: none;
-}
-
-.menu li:hover .submenu{
-	display: block;
-
-}
-/* navegacion submenu fin*/
 
 /* main inicio */
 .main {
@@ -345,10 +437,6 @@ footer {
     height: 4px;
 }
 
-.main__titulo {
-    color: #c0d6df;
-    padding: 2rem 0rem 5rem 0rem;
-}
 
 /* evaluar archivos separados */
 
@@ -465,14 +553,7 @@ footer {
 .texto-negrita {
     font-weight: bold;
 }
-
-.texto-tachado{
-    text-decoration: line-through;
-}
-
-.texto-rojo{
-    color: red;
-}
+/* ------- corte ----------------------------------------------------------------*/
 
 
 
@@ -558,6 +639,18 @@ footer {
 .main__titulo {
     font-size: 3.50rem;
 }
+
+.titulo{
+    font-size: 2rem;
+}
+
+/*
+.ingresar {
+    margin-left: 40%;
+}
+*/
+
+
 
 }
 
@@ -689,6 +782,15 @@ footer {
     .main__titulo {
         font-size: 2.50rem;
     }
+
+    .titulo{
+        font-size: 1.5rem;
+    }
+  /*  
+    .ingresar {
+        margin-left: 3rem;
+    }
+    */
 }
 
 /*  Keyframes  */
