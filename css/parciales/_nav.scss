@@ -1,0 +1,50 @@
+/* navegacion */
+.navegacion{
+	width: 100%;
+	background-color: #c0d6df;
+    text-align: center;
+	ul{
+		list-style: none;
+	}
+}
+
+.menu{
+	li{
+		position: relative;
+		display: inline-block;
+		a{
+			display: block;
+			padding: 15px 20px;
+			color: black;;
+			text-decoration: none;    
+		}
+		a:hover{
+			color: gray;
+		}
+	}
+	li:hover .submenu{
+		display: block;
+	}
+}
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	display: none; 
+    z-index: 10;
+	li{
+		a{
+			display: block;
+			padding: 15px 20px;
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+}
+
+
+
+
+
+

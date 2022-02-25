@@ -1,0 +1,26 @@
+/*  Keyframes  evaluar si usamos ahora*/ 
+@keyframes logo__header {
+    0%{ 
+        width: 0px;
+    height: 0px;
+
+    }
+    25%{ 
+        width: 25px;
+        height: 20px;
+    
+     }
+    50%{     width: 50px;
+        height: 40px;
+     }
+    75%{ 
+        width: 75px;
+        height: 60px;
+    
+    }
+    100%{       width: 100px;
+        height: 80px;
+    
+    }
+ }
+ 

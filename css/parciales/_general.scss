@@ -1,0 +1,68 @@
+
+.ingresar {
+      margin-left: 60%;
+  }
+  
+.titulo{
+      
+      font-family: 'Rock Salt', cursive;
+      color: black;
+      font-weight: bold;
+      font-size: 3.50rem;
+      margin-top: 3rem;
+  }
+  
+.boton {
+      background-color: #c0d6df;
+      font-size: 1.5rem;
+  }
+
+.linea {
+    margin-top: 1rem;
+}
+
+.raya{
+    width: 50%;
+    margin: 1rem 25%;
+    height: 4rem;
+    background: linear-gradient(to right,#c0d6df, black);
+}
+
+.raya-linea{
+    border-bottom: 0.30rem solid #c0d6df;
+}
+
+.moneda-positivo{
+    font-weight: bold;
+}
+
+.moneda-negativo{
+    color: red;
+}
+
+.moneda-positivo::before{
+    content: "$ ";
+}
+
+.main__titulo {
+    color: #c0d6df;
+    padding: 2rem 0rem 5rem 0rem;
+}
+
+.menu-activo {
+    background-color: white;
+    border-top: groove 0.30rem black;
+    padding-bottom: 0rem;
+}
+
+.info__item__imagen {
+    width: 120px;
+    height: 120px;
+    border-radius: 2rem;
+}
+
+.info__item__imagen__tasaciones {
+    width: 420px;
+    height: 360px;
+    border-radius: 2rem;
+}
