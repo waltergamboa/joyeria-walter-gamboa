@@ -1,0 +1,37 @@
+ /* tamaños */
+@mixin tamanios($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin radius($radius){
+   border-radius: $radius;
+}
+
+.imagen-chica {
+   @include tamanios(100px, 100px);
+}
+
+.imagen-mediana {
+  @include tamanios(200px, 200px);
+}
+
+.imagen-grande {
+  @include tamanios(300px, 300px);
+}
+
+.radius-50{
+  @include radius(50%);
+}
+
+.radius-10{
+  @include radius(10%);  
+}
+
+.logo {
+  @include tamanios(100px, 100px);
+}
+
+.borde-clr-sitio-1{
+  border: 0.7rem solid #c0d6df;
+}

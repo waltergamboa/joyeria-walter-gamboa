@@ -1,9 +1,90 @@
+@charset "UTF-8";
 /* resetear */
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+/* elementos */
+html {
+  font-size: 62.5%;
+  /* 1 rem = 10px */
+}
+
+html body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #ffffff;
+  font-size: 2rem;
+  line-height: 1.5rem;
+}
+
+html body header {
+  background-color: #c0d6df;
+  color: black;
+}
+
+html body footer {
+  background-color: #c0d6df;
+  color: black;
+}
+
+html body h1 {
+  font-size: 8rem;
+}
+
+html body h2 {
+  font-size: 6rem;
+}
+
+html body h3 {
+  font-size: 4rem;
+}
+
+html body h4 {
+  font-size: 2rem;
+}
+
+html body p {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  margin: 1rem 0rem;
+  text-indent: 2rem;
+}
+
+html body a {
+  color: black;
+  text-decoration: none;
+}
+
+html body a:hover {
+  color: #fff;
+}
+
+/* colores sitio y generales */
+.clr-sitio-1 {
+  color: #c0d6df;
+}
+
+.clr-sitio-2 {
+  color: #eaeaea;
+}
+
+.clr-sitio-3 {
+  color: #c0d6df;
+}
+
+.clr-negro {
+  color: black;
+}
+
+.clr-rojo {
+  color: red;
+}
+
+.bg-gris {
+  background-color: gray;
 }
 
 .ingresar {
@@ -56,12 +137,6 @@
   padding: 2rem 0rem 5rem 0rem;
 }
 
-.menu-activo {
-  background-color: white;
-  border-top: groove 0.30rem black;
-  padding-bottom: 0rem;
-}
-
 .info__item__imagen {
   width: 120px;
   height: 120px;
@@ -74,6 +149,11 @@
   border-radius: 2rem;
 }
 
+.borde-izquierdo {
+  border-left: 1rem solid #c0d6df;
+}
+
+/* estilos generales */
 .negrita {
   font-weight: bold;
 }
@@ -86,76 +166,27 @@
   text-decoration: line-through;
 }
 
-.logo {
-  /*  margin-top: 1rem;*/
-  /*margin-left: 1rem;    */
+.justificado {
+  text-align: justify;
+}
+
+.indentado {
+  text-indent: 2rem;
+}
+
+.header__img--chica {
   width: 100px;
-  height: 80px;
-  /*
-      animation-name: logo__header;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-duration: 3s;
-      animation-delay: 0s
-      */
+  height: 100px;
 }
 
-.rojo {
-  color: red;
+.header__img--mediana {
+  width: 200px;
+  height: 200px;
 }
 
-/* elementos */
-html {
-  font-size: 62.5%;
-  /* 1 rem = 10px */
-}
-
-header {
-  background-color: #c0d6df;
-  color: black;
-}
-
-body {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #ffffff;
-  font-size: 2rem;
-  line-height: 1.5rem;
-}
-
-footer {
-  background-color: #c0d6df;
-  color: black;
-}
-
-h1 {
-  font-size: 8rem;
-}
-
-h2 {
-  font-size: 6rem;
-}
-
-h3 {
-  font-size: 4rem;
-}
-
-h4 {
-  font-size: 2rem;
-}
-
-p {
-  font-size: 2rem;
-  line-height: 2.2rem;
-  margin: 1rem 0rem;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #fff;
+.header__img--grande {
+  width: 300px;
+  height: 300px;
 }
 
 /* navegacion */
@@ -204,6 +235,12 @@ a:hover {
   text-decoration: none;
 }
 
+.menu-activo {
+  background-color: white;
+  border-top: groove 0.30rem black;
+  padding-bottom: 0rem;
+}
+
 .footer__container__center__subscribirse {
   margin-top: 4rem;
   text-align: center;
@@ -212,12 +249,6 @@ a:hover {
 .footer__container__center__preguntas {
   margin-top: 3rem;
   text-align: center;
-}
-
-.footer__hr {
-  width: 25%;
-  height: 20px;
-  margin: 1rem auto;
 }
 
 .footer__container__right__info {
@@ -239,6 +270,72 @@ a:hover {
 
 .footer__container__bottom__data--2 {
   padding-bottom: 2rem;
+}
+
+.footer__img--chica {
+  width: 100px;
+  height: 100px;
+}
+
+.footer__img--mediana {
+  width: 200px;
+  height: 200px;
+}
+
+.footer__img--grande {
+  width: 300px;
+  height: 300px;
+}
+
+.footer__hr, .footer__hr--50, .footer__hr--75, .footer__hr--100 {
+  width: 25%;
+  height: 20px;
+  margin: 1rem auto;
+}
+
+.footer__hr--50 {
+  width: 50%;
+}
+
+.footer__hr--75 {
+  width: 75%;
+}
+
+.footer__hr--100 {
+  width: 100%;
+}
+
+/* tamaños */
+.imagen-chica {
+  width: 100px;
+  height: 100px;
+}
+
+.imagen-mediana {
+  width: 200px;
+  height: 200px;
+}
+
+.imagen-grande {
+  width: 300px;
+  height: 300px;
+}
+
+.radius-50 {
+  border-radius: 50%;
+}
+
+.radius-10 {
+  border-radius: 10%;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.borde-clr-sitio-1 {
+  border: 0.7rem solid #c0d6df;
 }
 
 /*  Keyframes  evaluar si usamos ahora*/

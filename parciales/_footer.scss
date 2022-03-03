@@ -8,13 +8,6 @@
     text-align: center;
 }
 
-.footer__hr{
-    width: 25%;
-    height: 20px;
-    margin: 1rem auto;
-
-}
-
 .footer__container__right__info{
     margin-top: 1rem;
     text-align: center;
@@ -34,4 +27,42 @@
 
 .footer__container__bottom__data--2{
     padding-bottom: 2rem;
+}
+.footer__{
+    &img{
+        &--chica{
+        width: 100px;
+        height: 100px;
+        }
+        &--mediana{
+            width: 200px;
+            height: 200px;
+        }
+        &--grande{
+            width: 300px;
+            height: 300px;
+        }    
+    }
+}
+
+.footer__hr{
+    width: 25%;
+    height: 20px;
+    margin: 1rem auto;
+
+}
+
+.footer__hr--50{
+    @extend  .footer__hr;
+    width: 50%;
+}
+
+.footer__hr--75{
+    @extend  .footer__hr;
+    width: 75%;
+}
+
+.footer__hr--100{
+    @extend  .footer__hr;
+    width: 100%;
 }

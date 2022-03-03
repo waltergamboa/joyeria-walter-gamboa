@@ -1,0 +1,24 @@
+/* colores sitio y generales */
+$colores: (
+    "sitio-1": #c0d6df,
+    "sitio-2": #eaeaea,
+    "sitio-3": #c0d6df,    
+    "negro": black,
+    "rojo" : red
+);
+
+@each $key, $value in $colores{
+    .clr-#{$key}{
+        color: $value
+    }
+}
+
+$colores-background: (
+    "gris" : gray
+);
+
+@each $key, $value in $colores-background{
+    .bg-#{$key}{
+        background-color: $value
+    }
+}

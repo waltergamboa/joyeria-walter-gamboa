@@ -49,11 +49,6 @@
     padding: 2rem 0rem 5rem 0rem;
 }
 
-.menu-activo {
-    background-color: white;
-    border-top: groove 0.30rem black;
-    padding-bottom: 0rem;
-}
 
 .info__item__imagen {
     width: 120px;
@@ -66,3 +61,14 @@
     height: 360px;
     border-radius: 2rem;
 }
+
+.borde-izquierdo{
+    border-left: 1rem solid #c0d6df;
+}
+
+/* estilos generales */
+$estilos-generales: (
+    "izquierda": left,
+    "centro": center,
+    "derecha": right
+);
