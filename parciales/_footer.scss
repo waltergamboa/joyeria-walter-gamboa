@@ -1,68 +1,36 @@
-.footer__container__center__subscribirse {
-    margin-top: 4rem;
-    text-align: center;
-}
-
-.footer__container__center__preguntas {
-    margin-top: 3rem;
-    text-align: center;
-}
-
-.footer__container__right__info{
-    margin-top: 1rem;
-    text-align: center;
-}
-
-.footer__container__right__info > i{
-    padding: 0.50rem 0rem;
-    margin-right: 0.20rem;
-    margin-left: 0.20rem;
-    width: 20px;
-    height: 20px;
-}
-
-.footer__container__right__info > p{
-    margin-bottom: 1rem;
-}
-
-.footer__container__bottom__data--2{
-    padding-bottom: 2rem;
-}
 .footer__{
     &img{
-        &--chica{
-        width: 100px;
-        height: 100px;
+        &--logo{
+            @include tamanios(100px, 100px);
         }
-        &--mediana{
-            width: 200px;
-            height: 200px;
-        }
-        &--grande{
-            width: 300px;
-            height: 300px;
-        }    
     }
-}
-
-.footer__hr{
-    width: 25%;
-    height: 20px;
-    margin: 1rem auto;
-
-}
-
-.footer__hr--50{
-    @extend  .footer__hr;
-    width: 50%;
-}
-
-.footer__hr--75{
-    @extend  .footer__hr;
-    width: 75%;
-}
-
-.footer__hr--100{
-    @extend  .footer__hr;
-    width: 100%;
+    &div{
+        &--subscribirse{
+            margin-top: 4rem;
+            text-align: center;
+        }
+        &--preguntas{
+            margin-top: 3rem;
+            text-align: center;       
+        }
+        &--social{
+            margin-top: 1rem;
+            text-align: center;
+            i {
+                padding: 0.50rem 0rem;
+                margin-right: 0.20rem;
+                margin-left: 0.20rem;
+                width: 20px;
+                height: 20px;
+            }
+            p {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    &hr {
+        width: 25%;
+        height: 20px;
+        margin: 1rem auto;
+    }
 }

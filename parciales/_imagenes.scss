@@ -20,16 +20,17 @@
   @include tamanios(300px, 300px);
 }
 
+.imagen-colecciones {
+  @include tamanios(120px, 120px);
+}
+
+
 .radius-50{
   @include radius(50%);
 }
 
 .radius-10{
   @include radius(10%);  
-}
-
-.logo {
-  @include tamanios(100px, 100px);
 }
 
 .borde-clr-sitio-1{

@@ -1,16 +1,21 @@
 .header__{
     &img{
-        &--chica{
-        width: 100px;
-        height: 100px;
+        &--logo{
+            @include tamanios(100px, 100px);
         }
-        &--mediana{
-            width: 200px;
-            height: 200px;
+    }
+    &div{
+        &--titulo{
+            font-family: 'Rock Salt', cursive;
+            color: black;
+            font-weight: bold;
+            font-size: 3.50rem;
+            margin-top: 3rem;
         }
-        &--grande{
-            width: 300px;
-            height: 300px;
-        }    
+    }
+    &a{
+        &--ingresar{
+            margin-left: 60%;
+        }
     }
 }
