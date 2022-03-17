@@ -1,10 +1,23 @@
+/* general */
+$estilos-generales: (
+    "izquierda": left,
+    "centro": center,
+    "derecha": right
+);
+
 .boton {
-      background-color: #c0d6df;
+      background-color: map-get($colores, sitio-1);
       font-size: 1.5rem;
   }
 
 .linea {
     margin-top: 1rem;
+    text-indent: 0;
+    &-colecciones {
+        margin-top: 3rem;
+        text-indent: 0;
+        height: 8rem;
+    }
 }
 
 .raya{
@@ -12,31 +25,45 @@
     margin: 1rem 25%;
     height: 4rem;
     background: linear-gradient(to right,#c0d6df, black);
+    &-linea{
+        border-bottom: 0.30rem solid #c0d6df;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
 }
 
-.raya-linea{
-    border-bottom: 0.30rem solid #c0d6df;
+.moneda{
+    &-negativo{
+        color: red;
+    }
+    &-positivo{
+        font-weight: bold;
+    }
+    &-positivo::before{
+        content: "$ ";
+    }
 }
 
-.moneda-positivo{
-    font-weight: bold;
+.espacio{
+    &-izquierda{
+        margin-left: 1rem;
+    }
+    &-derecha{
+        margin-right: 1rem;
+    }
 }
 
-.moneda-negativo{
-    color: red;
+.borde{
+    &-izquierdo{
+        border-left: 0.5rem solid #c0d6df;
+        p {
+            margin-left: 1rem;
+        }
+    }
 }
 
-.moneda-positivo::before{
-    content: "$ ";
+.icono-separador{
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
-.borde-izquierdo{
-    border-left: 1rem solid #c0d6df;
-}
-
-/* estilos generales */
-$estilos-generales: (
-    "izquierda": left,
-    "centro": center,
-    "derecha": right
-);

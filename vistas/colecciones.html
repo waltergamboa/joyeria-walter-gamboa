@@ -7,15 +7,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="joyeria, gemologia, venta, servicios, diamante, zafiro, rubi, esmeralda, gemas">
+    <meta name="keywords"
+        content="joyeria, gemologia, venta, servicios, diamante, zafiro, rubi, esmeralda, piedras, piedras preciosas">
     <meta name="description"
-        content="Los diamantes son eternos - Colecciones de anillos, aros, pulseras y otros articulos para la venta.">
+        content="Diamantes & Co. - Colecciones de anillos, aros, pulseras y otros articulos para la venta.">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Sansita+Swashed:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
     <title>Colecciones</title>
 </head>
 
@@ -24,13 +28,14 @@
         <header>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-md-3 col-xxl-3 p-4">
-                        <img class="header__img--logo" src="../assets/img/d1.png" alt="Logo">
+                    <div class="col-12 col-md-3 col-xl-3 text-center p-4">
+                        <a href="../index.html"><img class="header__img--logo" src="../assets/img/d1.png"
+                                alt="Logo"></a>
                     </div>
-                    <div class="col-12 col-md-6 col-xxl-6 p-4 text-center header__div--titulo">
-                        <span>Los Diamantes Son Eternos</span>
+                    <div class="col-12 col-md-6 col-xl-6 p-4 text-center">
+                        <h1 class="header__h1--titulo">Diamantes & Co.</h1>
                     </div>
-                    <div class="col-12 col-md-3 col-xxl-3 p-4">
+                    <div class="col-12 col-md-3 col-xl-3 p-4">
                         <a class="header__a--ingresar" href="ingresar.html">Mi Cuenta</a>
                     </div>
                 </div>
@@ -45,12 +50,18 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav menu">
                         <li class="nav-item"><a href="../index.html">Inicio</a></li>
-                        <li class="nav-item menu-activo"><a href="#">Colecciones</a></li>
+                        <li class="nav-item menu-activo"><a href="#">Colecciones</a>
+                            <ul class="submenu">
+                                <li class="nav-item"><a href="colecciones.html#id#colecciones-anillos">Anillos</a></li>
+                                <li class="nav-item"><a href="colecciones.html#colecciones-aros">Aros</a></li>
+                                <li class="nav-item"><a href="colecciones.html#colecciones-pulseras">Pulseras</a></li>
+                            </ul>
+                        </li>
                         <li class="nav-item"><a href="tasaciones.html">Tasaciones</a></li>
                         <li class="nav-item"><a href="#">Servicios</a>
                             <ul class="submenu">
                                 <li class="nav-item"><a href="servicios-joyeria.html">Joyeria</a></li>
-                                <li class="nav-item"><a href="servicios-gemologia.html">Gemoligia</a></li>
+                                <li class="nav-item"><a href="servicios-gemologia.html">Gemologia</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a href="nosotros.html">Nosotros</a></li>
@@ -64,17 +75,15 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="main__h2--titulo negrita">Colecciones</h2>
+                        <h2 class="main__h2--titulo">Algunas de nuestras Joyas</h2>
                     </div>
                 </div>
             </div>
 
-
-
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="raya-linea">Anillos</h3>
+                        <h3 id="colecciones-anillos" class="clr-sitio-3 raya-linea">Anillos</h3>
                     </div>
                 </div>
             </div>
@@ -82,46 +91,53 @@
             <div class="container">
                 <div class="row mb-3">
                     <div class="col-12 col-md-6 col-xl-3 text-center">
-                        <img class="imagen-colecciones radius-10" src="../assets/img/anillo1.jpg" alt="">
-                        <p class="linea negrita">Anillo de Compromiso Ilusión en oro blanco con diamante talla
+                        <img class="imagen-colecciones radius-10" src="../assets/img/anillo1.jpg" alt="Anillos">
+                        <p class="linea-colecciones txt-negrita centrado">Anillo de Compromiso Ilusión en oro blanco con
+                            diamante talla
                             brillante (0.08 ct, color G, pureza VS).</p>
                         <hr>
-                        <p class="linea"><span class="tachado moneda-positivo">259.840</span> <span
+                        <p class="linea"><span class="txt-tachado moneda-positivo">259.840</span> <span
                                 class="moneda-positivo">220.800</span></p>
-                        <p class="linea"><span class="clr-rojo">12 Cuotas Sin Interés de <span
+                        <p class="linea"><span class="clr-sitio-3">12 Cuotas Sin Interés de <span
                                     class="moneda-positivo">18.400</span></span>
                         </p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 text-center">
-                        <img class="imagen-colecciones radius-10" src="../assets/img/anillo2.jpg" alt="">
-                        <p class="linea negrita">Anillo de Compromiso en oro blanco con diamantes talla brillante
+                        <img class="imagen-colecciones radius-10" src="../assets/img/anillo2.jpg" alt="Anillos">
+                        <p class="linea-colecciones txt-negrita centrado">Anillo de Compromiso en oro blanco con
+                            diamantes
+                            talla brillante
                             (0.127 ct, color H-I, pureza SI).</p>
                         <hr>
-                        <p class="linea"><span class="tachado moneda-positivo">361.088</span><span
+                        <p class="linea"><span class="txt-tachado moneda-positivo">361.088</span><span
                                 class="moneda-positivo">306.800</span></p>
-                        <p class="linea"><span class="clr-rojo">12 Cuotas Sin Interés de <span
+                        <p class="linea"><span class="clr-sitio-3">12 Cuotas Sin Interés de <span
                                     class="moneda-positivo">25.566</span></span>
                         </p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 text-center">
-                        <img class="imagen-colecciones radius-10" src="../assets/img/anillo3.jpg" alt="">
-                        <p class="linea negrita">Anillo de Compromiso en oro blanco con diamante talla brillante
+                        <img class="imagen-colecciones radius-10" src="../assets/img/anillo3.jpg" alt="Anillos">
+                        <p class="linea-colecciones txt-negrita centrado">Anillo de Compromiso en oro blanco con
+                            diamante
+                            talla brillante
                             (0.10 ct, color G, pureza VS).</p>
                         <hr>
-                        <p class="linea"><span class="tachado moneda-positivo">211.680</span> <span
+                        <p class="linea"><span class="txt-tachado moneda-positivo">211.680</span> <span
                                 class="moneda-positivo">179.800</span></p>
-                        <p class="linea"><span class="clr-rojo">12 Cuotas Sin Interés de <span
+                        <p class="linea"><span class="clr-sitio-3">12 Cuotas Sin Interés de <span
                                     class="moneda-positivo">14.983</span></span>
                         </p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 text-center">
-                        <img class="imagen-colecciones radius-10" src="../assets/img/anillo4.jpg" alt="">
-                        <p class="linea negrita">Anillo de Compromiso en oro blanco con diamante talla brillante
+                        <img class="imagen-colecciones radius-10" src="../assets/img/anillo4.jpg" alt="Anillos">
+                        <p class="linea-colecciones txt-negrita centrado">Anillo de Compromiso en oro blanco con
+                            diamante
+                            talla brillante
                             (0.15 ct, color G, pureza VS).</p>
                         <hr>
-                        <p class="linea"><span class="tachado moneda-positivo">292.320</span> <span
+                        <p class="linea"><span class="txt-tachado moneda-positivo">292.320</span> <span
                                 class="moneda-positivo">248.400</span></p>
-                        <p class="linea"><span class="clr-rojo">12 Cuotas Sin Interés de <span
+                        <p class="linea"><span class="clr-sitio-3">12 Cuotas Sin Interés de <span
                                     class="moneda-positivo">20.700</span></span>
                         </p>
                     </div>
@@ -132,7 +148,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 ">
-                        <h3 class="raya-linea">Aros</h3>
+                        <h3 id="colecciones-aros" class="clr-sitio-3 raya-linea">Aros <a href="#"><img
+                                    class="imagen-icono" src="../assets/img/arrow_up.png" alt=""></a></h3>
                     </div>
                 </div>
             </div>
@@ -140,43 +157,50 @@
             <div class="container">
                 <div class="row mb-3">
                     <div class="col-12 col-md-6 col-xl-3 text-center">
-                        <img class="imagen-colecciones radius-10" src="../assets/img/aro1.jpg" alt="">
-                        <p class="linea negrita">Aros en oro blanco con diamantes talla brillante.</p>
+                        <img class="imagen-colecciones radius-10" src="../assets/img/aro1.jpg" alt="Aros">
+                        <p class="linea-colecciones txt-negrita centrado">Aros en oro blanco con diamantes talla
+                            brillante.
+                        </p>
                         <hr>
-                        <p class="linea"><span class="tachado moneda-positivo">188.160</span> <span
+                        <p class="linea"><span class="txt-tachado moneda-positivo">188.160</span> <span
                                 class="moneda-positivo">178.700</span></p>
-                        <p class="linea"><span class="clr-rojo">12 Cuotas Sin Interés de <span
+                        <p class="linea"><span class="clr-sitio-3">12 Cuotas Sin Interés de <span
                                     class="moneda-positivo">14.891</span></span>
                         </p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 text-center">
-                        <img class="imagen-colecciones radius-10" src="../assets/img/aro2.jpg" alt="">
-                        <p class="linea negrita">Aros solitarios en oro blanco con diamantes talla brillante (0.554
+                        <img class="imagen-colecciones radius-10" src="../assets/img/aro2.jpg" alt="Aros">
+                        <p class="linea-colecciones txt-negrita centrado">Aros solitarios en oro blanco con diamantes
+                            talla
+                            brillante (0.554
                             ct total).</p>
                         <hr>
-                        <p class="linea"><span class="tachado moneda-positivo">243.936</span> <span
+                        <p class="linea"><span class="txt-tachado moneda-positivo">243.936</span> <span
                                 class="moneda-positivo">207.200</span></p>
-                        <p class="linea"><span class="clr-rojo">12 Cuotas Sin Interés de <span
+                        <p class="linea"><span class="clr-sitio-3">12 Cuotas Sin Interés de <span
                                     class="moneda-positivo">17.266</span></span>
                         </p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 text-center">
-                        <img class="imagen-colecciones radius-10" src="../assets/img/aro3.jpg" alt="">
-                        <p class="linea negrita">Aros 2 en 1 en oro blanco con diamantes talla brillante.</p>
+                        <img class="imagen-colecciones radius-10" src="../assets/img/aro3.jpg" alt="Aros">
+                        <p class="linea-colecciones txt-negrita centrado">Aros 2 en 1 en oro blanco con diamantes talla
+                            brillante.</p>
                         <hr>
-                        <p class="linea"><span class="tachado moneda-positivo">217.728</span> <span
+                        <p class="linea"><span class="txt-tachado moneda-positivo">217.728</span> <span
                                 class="moneda-positivo">185.000</span></p>
-                        <p class="linea"><span class="clr-rojo">12 Cuotas Sin Interés de <span
+                        <p class="linea"><span class="clr-sitio-3">12 Cuotas Sin Interés de <span
                                     class="moneda-positivo">15.416</span></span>
                         </p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 text-center">
-                        <img class="imagen-colecciones radius-10" src="../assets/img/aro4.jpg" alt="">
-                        <p class="linea negrita">Aros en oro blanco con diamantes talla brillante.</p>
+                        <img class="imagen-colecciones radius-10" src="../assets/img/aro4.jpg" alt="Aros">
+                        <p class="linea-colecciones txt-negrita centrado">Aros en oro blanco con diamantes talla
+                            brillante.
+                        </p>
                         <hr>
-                        <p class="linea"><span class="tachado moneda-positivo">407.680</span> <span
+                        <p class="linea"><span class="txt-tachado moneda-positivo">407.680</span> <span
                                 class="moneda-positivo">346.500</span></p>
-                        <p class="linea"><span class="clr-rojo">12 Cuotas Sin Interés de <span
+                        <p class="linea"><span class="clr-sitio-3">12 Cuotas Sin Interés de <span
                                     class="moneda-positivo">28.875</span></span>
                         </p>
                     </div>
@@ -187,39 +211,42 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="raya-linea">Pulseras</h3>
+                        <h3 id="colecciones-pulseras" class="clr-sitio-3 raya-linea">Pulseras <a href="#"><img
+                                    class="imagen-icono" src="../assets/img/arrow_up.png" alt=""></a></h3>
                     </div>
                 </div>
             </div>
 
-
             <div class="container">
                 <div class="row mb-3">
                     <div class="col-12 col-md-6 col-xl-3 text-center">
-                        <img class="imagen-colecciones radius-10" src="../assets/img/p1.jpg" alt="">
-                        <p class="linea negrita">Pulsera oro amarillo.</p>
+                        <img class="imagen-colecciones radius-10" src="../assets/img/p1.jpg" alt="Pulseras">
+                        <p class="linea-colecciones txt-negrita centrado">Pulsera oro amarillo.</p>
                         <hr>
                         <p class="linea"><span class="moneda-positivo">188.160</span></p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 text-center">
-                        <img class="imagen-colecciones radius-10" src="../assets/img/p2.jpg" alt="">
-                        <p class="linea negrita">Pulsera oro amarillo con diamantes talla brillante y baguette.</p>
+                        <img class="imagen-colecciones radius-10" src="../assets/img/p2.jpg" alt="Pulseras">
+                        <p class="linea-colecciones txt-negrita centrado">Pulsera oro amarillo con diamantes talla
+                            brillante
+                            y baguette.</p>
                         <hr>
                         <p class="linea"><span class="moneda-positivo">325.125</span></p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 text-center">
-                        <img class="imagen-colecciones radius-10" src="../assets/img/p3.jpg" alt="">
-                        <p class="linea negrita">Pulsera oro amarillo con rubies.</p>
+                        <img class="imagen-colecciones radius-10" src="../assets/img/p3.jpg" alt="Pulseras">
+                        <p class="linea-colecciones txt-negrita centrado">Pulsera oro amarillo con rubies.</p>
                         <hr>
                         <p class="linea"><span class="moneda-positivo">410.250</span> <span></span></p>
                     </div>
                     <div class="col-12 col-md-6 col-xl-3 text-center">
-                        <img class="imagen-colecciones radius-10" src="../assets/img/p4.jpeg" alt="">
-                        <p class="linea negrita">Pulsera oro amarillo con zafiros distintos colores.</p>
+                        <img class="imagen-colecciones radius-10" src="../assets/img/p4.jpeg" alt="Pulseras">
+                        <p class="linea-colecciones txt-negrita centrado">Pulsera oro amarillo con zafiros distintos
+                            colores.</p>
                         <hr>
-                        <p class="linea"><span class="tachado moneda-positivo">407.680</span> <span
+                        <p class="linea"><span class="txt-tachado moneda-positivo">407.680</span> <span
                                 class="moneda-positivo">340.500</span></p>
-                        <p class="linea"><span class="clr-rojo">12 Cuotas Sin Interés de <span
+                        <p class="linea"><span class="clr-sitio-3">12 Cuotas Sin Interés de <span
                                     class="moneda-positivo">28.375</span></span>
                     </div>
                 </div>
@@ -228,34 +255,27 @@
         <footer>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12 col-md-2 col-xxl-1 p-4">
-                        <img class="footer__img--logo" src="../assets/img/d1.png" alt="Logo">
-                    </div>
-
-                    <div class="col-12 col-md-10 col-xxl-3 p-4">
+                    <div class="col-12 col-md-12 col-xl-4 p-4">
                         <div>
-                            <i class="fa-solid fa-phone"></i>
-                            <i class="fa-solid fa-ellipsis-vertical"></i>&nbsp;+54 11
-                            9999-9999
+                            <i class="fa-solid fa-phone imagen-fa"></i>
+                            <span>11
+                                9999-9999</span>
                         </div>
                         <div>
-                            <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;<i
-                                class="fa-solid fa-ellipsis-vertical"></i>&nbsp;Calle
-                            3233 - C.A.B.A.
+                            <i class="fa-solid fa-location-arrow imagen-fa"></i><span>Calle
+                                3233 - C.A.B.A.</span>
                         </div>
                         <div>
-                            <i class="fa-solid fa-envelope"></i>&nbsp;<i
-                                class="fa-solid fa-ellipsis-vertical"></i>&nbsp;info@ldseternos.com
+                            <i class="fa-solid fa-envelope imagen-fa"></i><span>info@diamantesco.com</span>
                         </div>
                         <div>
-                            <i class="fa-solid fa-clock"></i>&nbsp;<i
-                                class="fa-solid fa-ellipsis-vertical"></i>&nbsp;Lunes
-                            a
-                            Viernes - 10-17
+                            <i class="fa-solid fa-clock imagen-fa"></i><span>Lunes
+                                a
+                                Viernes - 10-17 hs</span>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-xxl-4 text-center">
+                    <div class="col-12 col-md-12 col-xl-4 text-center">
                         <div class="footer__div--subscribirse">
                             <form action="">
                                 <label for="email">Boletin</label>
@@ -268,14 +288,12 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-6 col-xxl-4">
+                    <div class="col-12 col-md-12 col-xl-4">
                         <div class="footer__div--social">
                             <p>Seguinos en</p>
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                            <i class="fa-brands fa-instagram-square"></i>
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-facebook "></i>
+                            <i class="fa-brands fa-instagram-square "></i>
+                            <i class="fa-brands fa-youtube "></i>
                         </div>
                     </div>
 
@@ -284,9 +302,11 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <hr class="footer__hr">
-                        <p><i class="fa-solid fa-copyright"></i>&nbsp;Copyright -
-                            2022 Los Diamantes Son Eternos</p>
-                        <p>Todos los derechos reservados</p>
+                        <div class="footer__div--derechos">
+                            <p><i class="fa-solid fa-copyright"></i>&nbsp;Copyright -
+                                2022 Diamantes & Co.</p>
+                            <p>Todos los derechos reservados</p>
+                        </div>
                     </div>
                 </div>
             </div>

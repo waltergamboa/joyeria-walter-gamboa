@@ -1,8 +1,10 @@
+/* main */
 .main__{
     &h2{
         &--titulo{
-            color: #c0d6df;
+            color: map-get($colores, sitio-3);
             padding: 2rem 0rem 5rem 0rem;
+            text-align: left;
         }
     }
 }

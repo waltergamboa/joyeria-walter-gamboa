@@ -1,3 +1,4 @@
+/* header */
 .header__{
     &img{
         &--logo{
@@ -6,11 +7,21 @@
     }
     &div{
         &--titulo{
-            font-family: 'Rock Salt', cursive;
-            color: black;
+            font-family:'Arial Narrow', Arial, sans-serif;
+            color: map-get($colores, negro);
             font-weight: bold;
-            font-size: 3.50rem;
+            font-size: 4.50rem;
             margin-top: 3rem;
+        }
+    }
+    &h1{
+        &--titulo{
+            /*font-family:'Arial Narrow', Arial, sans-serif;*/
+            font-family: 'Nanum Myeongjo', serif;
+            color: map-get($colores, negro);
+            font-weight: bold;
+            font-size: 5.50rem;
+            margin-top: 1rem;
         }
     }
     &a{

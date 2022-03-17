@@ -2,7 +2,7 @@
 html {
     font-size: 62.5%; /* 1 rem = 10px */
     body{
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         background-color: #ffffff;
         font-size: 2rem;
         line-height: 1.5rem;
@@ -15,16 +15,13 @@ html {
             color: black;
         }
         h1 {
-            font-size: 8rem;
+            font-size: 4rem;
         }        
         h2 {
-            font-size: 6rem;
+            font-size: 3.50rem;
         }
         h3 {
-            font-size: 4rem;
-        }
-        h4 {
-            font-size: 2rem;
+            font-size: 3rem;
         }
         p {
             font-size: 2rem;
@@ -37,7 +34,7 @@ html {
             text-decoration: none;
         }
         a:hover{
-            color: #fff;
+            color: map-get($colores, sitio-3);
         }        
     }
 }

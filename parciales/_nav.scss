@@ -1,7 +1,7 @@
-/* navegacion */
+/* nav */
 .navegacion{
 	width: 100%;
-	background-color: #c0d6df;
+	background-color: map-get($colores, sitio-1);
     text-align: center;
 	ul{
 		list-style: none;
@@ -15,11 +15,12 @@
 		a{
 			display: block;
 			padding: 15px 20px;
-			color: black;;
+			color: map-get($colores, negro);
 			text-decoration: none;    
 		}
 		a:hover{
-			color: gray;
+			color: map-get($colores, sitio-3);
+			
 		}
 	}
 	li:hover .submenu{
@@ -29,8 +30,8 @@
 
 .submenu{
 	position: absolute;
-	background: #333333;
-	width: 120%;
+	background: map-get($colores, sitio-1);
+	width: 100%;
 	display: none; 
     z-index: 10;
 	padding: 0rem 0rem;
@@ -40,20 +41,17 @@
 		a{
 			display: block;
 			padding: 15px 20px;
-			color: #fff;
+			color: map-get($colores, negro);
 			text-decoration: none;
+		}
+		a:hover{
+			color: map-get($colores, sitio-3);
 		}
 	}
 }
 
 .menu-activo {
-    background-color: white;
-    border-top: groove 0.30rem black;
+	background-color: map-get($colores, blanco);
+    border-top: groove 0.30rem #023e8a;
     padding-bottom: 0rem;
 }
-
-
-
-
-
-

@@ -6,24 +6,20 @@ $estilos-textos: (
    "indentado": 2rem
 );
 
-.negrita {
-   font-weight: map-get($estilos-textos, negrita);
- }
- 
- .italica {
-    font-style: map-get($estilos-textos, italica);
- }
- 
- .tachado{
-    text-decoration: map-get($estilos-textos, tachado)
- }
- 
- .justificado{
-   text-align: map-get($estilos-textos, justificado)
+.txt{
+   &-negrita {
+      font-weight: map-get($estilos-textos, negrita);
+    }
+   &-italica {
+      font-style: map-get($estilos-textos, italica);
+   }
+   &-tachado{
+      text-decoration: map-get($estilos-textos, tachado)
+   }
+   &-justificado{
+      text-align: map-get($estilos-textos, justificado)
+   }
+   &-indentado{
+      text-indent: map-get($estilos-textos, indentado)
+   }
 }
-
-.indentado{
-   text-indent: map-get($estilos-textos, indentado)
-}
-
-
